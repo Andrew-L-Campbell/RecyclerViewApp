@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/box1"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:text="box1"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/box2"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_marginTop="5dp"
+        android:text="box2"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/box3"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_marginTop="5dp"
+        android:text="box3"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/box4"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_marginTop="5dp"
+        android:text="box4"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/box5"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_marginTop="5dp"
+        android:text="box5"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/box6"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_marginTop="5dp"
+        android:text="box6"
+        android:textSize="30sp" />
+</LinearLayout>

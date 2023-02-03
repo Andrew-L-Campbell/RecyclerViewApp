@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/shape_backround"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Remove Motorcycle By ID"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:layout_gravity="center"
+
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+        <EditText
+            android:id="@+id/removeIdView"
+            android:hint="Id of Motorcycle"
+            android:textSize="18sp"
+            android:textColor="@color/purple_500"
+            android:textStyle="bold"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
